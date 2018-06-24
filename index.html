@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+<!-- make div with h1 tag "CrystalsCollector!" -->
+
+<div class="header"><h1>Crystals Collector!</h1></div>
+<br>
+<br>
+<!-- make div with instructions -->
+<div class="instructions">
+	<p>You will be given a random number at the the start of the game
+	<br>
+	<br>
+	There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+	<br>
+	<br>
+	You win the game by matching your total score to random number, you lose the game if your total score exceeds the random number
+	<br>
+	<br>
+	The value of each crystal is hidden from you until you click on it
+	<br>
+	<br>
+	Each time when the game starts, the game will change the value of each crystal
+	</p>
+</div>
+<br>
+<br>
+<!-- make div that displays random number between 19-120 -->
+<div class="random-number"> 
+	<h1 id="computer-pick"></h1>
+</div>
+<!-- //make div that displays wins/losses, and shows "You lost!" or "you won!" -->
+<div class="wins-losses">
+	<br>
+	<br>
+	<p id="wins">Wins:  </p>
+	<br>
+	<p id="losses">Losses:  </p>
+</div>
+	
+<div class = "your-total-score">
+	<p>Your total score is:</p>
+</div>
+<!-- //make 4 buttons (crystals) that each equal random value between 1-12 -->
+
+<div class="buttons">
+<button id='red'></button>
+
+<button id='blue'></button>
+
+<button id='yellow'></button>
+
+<button id='green'></button>
+</div>
+<!-- //make a div with text "your total score" -->
+
+
+<!-- //make container that displays total score -->
+<div class = "total-score">
+	
+</div>
+	<script src="assets/javascript/game1.js"></script>
+</body>
+</html>
